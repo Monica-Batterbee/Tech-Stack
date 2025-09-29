@@ -1,0 +1,143 @@
+header {
+    padding: 10px;
+    background-color: rgb(149, 96, 149);
+    display: flex;
+    align-items: center;
+}
+
+header i {
+    font-size: 30px;
+    color: #FFF5EE;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+div#contacts {
+    height: 100vh;
+    background-color: #FFF5EE;
+}
+
+div#contactBox {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 30px 15px 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.3);
+    margin-top: 5px;
+}
+
+div#contactBox:hover {
+    background-color: lightblue;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mr-10{
+    margin-right:40px;
+}
+
+div#contactBox i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.grey-text {
+    color: grey;
+}
+
+div#messageRoom {
+    flex:1;
+    padding:20px;
+    margin: 20px 20px 20px 20px;
+    background-color: pink;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+div#messageHead {
+    background-color: #FFF5EE;
+    padding: 10px;
+    display: flex;
+    flex: row;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+div#messageBody {
+    flex: 1;
+    margin-bottom: 20px;
+    background-color: #FFF5EE;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    background-color: pink;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+.right {
+    margin-left: auto;
+}
+
+#typingArea {
+    margin-top: auto;
+    background-color: rgb(149, 96, 149);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.typing-container {
+    margin-left: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.typing-container input {
+    flex: 1; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.font-30 {
+    font-size: 30px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+/* #5f9ea069 */
