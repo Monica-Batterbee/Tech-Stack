@@ -1,6 +1,6 @@
 header {
     padding: 10px;
-    background-color: #5F9EA0;
+    background-color: rgb(149, 96, 149);
     display: flex;
     align-items: center;
 }
@@ -60,7 +60,7 @@ div#messageRoom {
     flex:1;
     padding:20px;
     margin: 20px 20px 20px 20px;
-    background-color: lightblue;
+    background-color: pink;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -87,7 +87,7 @@ div#messageBody {
 }
 
 .message {
-    background-color: rgb(136, 237, 136);
+    background-color: pink;
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
@@ -101,7 +101,7 @@ div#messageBody {
 
 #typingArea {
     margin-top: auto;
-    background-color: #5F9EA0;
+    background-color: rgb(149, 96, 149);
     padding: 10px;
     border-radius: 10px;
     display: flex;
