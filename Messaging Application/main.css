@@ -92,6 +92,11 @@ div#messageBody {
     padding: 10px;
     border-radius: 10px;
     align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+.right {
+    margin-left: auto;
 }
 
 #typingArea {
